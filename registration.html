@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Registration</title>
+  <link href="styleregistration.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="left-container">
+      <h1>Register</h1>
+
+      <div class="form-container">
+        <form class="form" name="form" action="#" target="_self" method="post">
+          <h3>Info</h3>
+
+          <fieldset class="names">
+            <label class="form-label" for="name">First Name *</label>
+            <input class="form-input" type="text" id="name" name="name" required>
+
+                  <label class="form-label" for="name">Last Name *</label>
+            <input class="form-input" type="text" id="name" name="name" required>
+          </fieldset>
+
+          <div class="email-pass media">
+            <fieldset class="email">
+              <label class="form-label" for="email">Email *</label>
+              <input class="form-input" type="email" id="email" name="email" placeholder=" example@email.com" required>
+              <p class="req-text">this field is required</p>
+            </fieldset>
+
+            <fieldset class="password">
+              <label class="form-label" for="password">Password *</label>
+              <input class="form-input" type="password" id="password" name="password" placeholder=" ******" required>
+            </fieldset>
+          </div>
+
+
+
+
+          <fieldset class="course">
+            <label class="form-label" for="course">Select Course</label>
+            <select class="form-input" id="course" name="course">
+              <option disabled value>Select an option</option>
+              <option value="course1">Course 1</option>
+              <option value="course2">Course 2</option>
+              <option value="course3">Course 3</option>
+              <option value="course4">Course 4</option>
+              <option value="course5">Course 5</option>
+              <option value="course6">Course 6</option>
+            </select>
+          </fieldset>
+
+          <fieldset class="notes">
+            <label class="form-label" for="notes">Notes
+            </label>
+            <textarea class="form-input" id="notes" name="notes"></textarea>
+          </fieldset>
+                
+
+          <div class="btn media">
+            <input type="reset" class="reset-btn">
+            <input type="submit" class="submit-btn">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
